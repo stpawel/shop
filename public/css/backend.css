@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1024px;
+    height: 60px;
+    background: #3774af;
+}
+
+#main_menu {
+    width: 1024px;
+    background: #17538f;
+    height: 60px;
+    overflow: hidden;
+}
+
+#main_menu ul {
+    float: left;
+}
+
+#main_menu ul li {
+    float: left;
+    list-style-type: none;
+}
+
+#main_menu ul li a {
+    color: #fff;
+    background: #17538f;
+    font-size: 16px;
+    padding: 22px;
+    display: block;
+    text-decoration: none;
+}
+
+#main_menu ul li a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    overflow: hidden;
+}
+
+#left_menu {
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+#left_menu ul li {
+    list-style-type: none;
+}
+
+#left_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: #17538f;
+    font-size: 16px;
+    display: block;
+    padding: 20px;
+}
+
+#left_menu ul li a:hover{
+    text-decoration: underline;
+}
+
+main {
+    width: 784px;
+    float: left;
+    margin: 20px;
+    overflow: hidden;   
+}
+
+h2 {
+    font-size: 40px;
+}
+
+footer {
+    width: 1024px;
+    overflow: hidden;
+    height: 40px;
+    background: #3774af;
+
+}
+
+.title, .author {
+    width: 500px;
+}
+
+.description {
+    width: 500px;
+    height: 200px;
+}
+
+.error {
+    list-style-type: none;
+    color: red;
+    padding: 0 0 10px 0;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 5px;  
+} 
+
+table {
+    border-collapse: collapse;
+}
+
+.odd {
+    background: #f8f8f8;
+}
+
+.even {
+    background: #e5f1f4;
+}
+
+.nameTable {
+    background: #72aed0;
+    color: white;
+}
+
+.sizeTitle {
+    width: 500px;
+}
+
+table a {
+    text-decoration: none;
+    display: block;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+.pager {
+     float: right;
+}
+
+.pagination li {
+    float: left;
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0 3px;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: inline;
+    color: #17538f;
+    background: white;
+    padding: 5px;
+    margin: 10px 2px;
+}
+
+.pagination a:hover {
+   
+    background: #17538f;
+    color: white;
+}
+
+.stitle {
+    width: 507px;
+}
+
+.logout {
+    padding: 40px 20px 0 0;
+    font-size: 16px;
+    text-align: right;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    padding: 0;
+    margin: 0;
+}
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+
+
